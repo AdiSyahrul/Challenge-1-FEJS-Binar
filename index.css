@@ -1,0 +1,136 @@
+.custom-navbar{
+    align-items: flex-end;
+}
+@include media-breakpoint-up(md){
+    .custom-navbar{
+        align-items: flex-start;
+    }
+}
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+.title{
+    font-weight: 700;
+}
+.desc{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.testi{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.desctesti{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.header-color{
+    background-color:#F1F3FF;
+}
+.car-handle{
+    position:relative;
+    min-height: 300px;
+}
+.img-car{
+    position:relative;
+    right:0;
+    bottom:0;
+}
+.Cewek{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.img-service{
+    position:relative;
+    left:0;
+}
+.info-panel{
+    background-color:white;
+}
+.panel{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.info-testi{
+    position: absolute;
+    border-radius: 8px;
+    width: 619px;
+    height: 270px;
+    left: 410px;
+    top: 1652px;
+    background: #F1F3FF;
+}
+.img-photo{
+    float:left;
+    width: 80px;
+    height: 80px;
+    left: 456px;
+    top: 1747px;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 80px;
+    height: 16px;
+}
+.Text{
+    text-align:left;
+}
+.John{
+    font-weight: bold;
+    text-align: center;
+}
+.kotak{
+    background: #0D28A6;
+    border-radius: 13px;
+    position: absolute;
+    width: 1168px;
+    height: 326px;
+    left: 136px;
+    top: 2078px;
+}
+.Newtitle{
+    position: static;
+    margin-top: 80px;
+    width: 613px;
+    height: 54px;
+    top: 2142px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.Newdesc{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 613px;
+    height: 54px;
+    left: 406px;
+    top: 2142px;
+}
+
+
