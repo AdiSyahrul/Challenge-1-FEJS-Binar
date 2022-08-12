@@ -133,5 +133,68 @@ body{
     left: 406px;
     top: 2142px;
 }
-
-
+.FAQ{
+    margin-top: 1000px;
+    margin-bottom: 100px;
+    left:9.44%;
+}
+.border-box{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 605px;
+    padding:15px;
+    height: 56px;
+    margin-bottom: 15px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+}
+.footer{
+    padding: 0px;
+    gap: 86px;
+}
+.footer-kiri{
+    width: 268px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-kanan{
+    width: 268px;
+    height: 20px;
+    left: 873px;
+    top: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-tengah{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer-connect{
+    width: 268px;
+    height: 20px;
+    left: 519px;
+    top: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px
+}
+.icon-list{
+    margin-right: 10px;
+}
