@@ -99,7 +99,8 @@ body{
 }
 .John{
     font-weight: bold;
-    text-align: center;
+    text-align:left;
+    margin-left: 85px;
 }
 .kotak{
     background: #0D28A6;
